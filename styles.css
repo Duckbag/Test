@@ -1,0 +1,130 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+/* Main content area styling */
+.page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.u-main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Hidden text area */
+#hide {
+    display: none;
+}
+
+/* Version canvas styling */
+#version canvas {
+    width: 100%;
+    height: auto;
+}
+
+/* Hotbar styling */
+#hotbar {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Preview window styling */
+#previewWindow {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+/* Chat window styling */
+#chat {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Menu styling */
+#menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+/* Progress bar styling */
+#progress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+/* Overlay styling */
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Mobile message styling */
+#mobile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    text-align: center;
+}
+
+#text_vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* WebGL/WebRTC error message styling */
+#webgl_webrtc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* NOA container styling */
+#noa-container {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#noa-canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    touch-action: none;
+    user-select: none;
+}
