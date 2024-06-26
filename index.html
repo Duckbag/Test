@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Minecraft Classic Game</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="script.lua"></script>
-    <script src="assets/js/app.lua"></script>
 </head>
 <body>
     <header>
@@ -36,6 +34,8 @@
         </section>
     </main>
 
-    <script type="text/lua" src="script.lua"></script>
+    <!-- Scripts at the end of the body for better performance -->
+    <script src="script.lua"></script>
+    <script src="assets/js/app.lua"></script>
 </body>
 </html>
